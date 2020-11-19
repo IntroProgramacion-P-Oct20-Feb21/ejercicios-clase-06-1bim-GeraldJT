@@ -24,13 +24,18 @@ public class UsoSwitch {
         String cadena = entrada.nextLine();
         
         switch(cadena){
+            case "lunes":
             case "Lunes":
                 System.out.printf("%s", cadena);
                 break;
-            
+            case "martes":
             case "Martes":
                 System.out.printf("%s", cadena);
-                break;    
+                break;  
+            case "jueves":
+            case "Jueves":
+                    System.out.printf("%s", cadena);
+                break; 
             
             default:
                 System.out.println("ninguna de las anteriores");
